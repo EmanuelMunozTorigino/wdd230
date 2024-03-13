@@ -3,11 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | WDD 230</title>
-</head>
-<body>
-    
-    <h1>Front-end develompment</h1>
+    <title>Emanuel Muñoz Torigino - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="A course assignment portal of WDD 230 – Web Frontend Development for the chamber commerce project of the next 7 weeks by Emanuel Muñoz Torigino"> <!-- less than 150 characters as a good practice of SEO-->
+    <meta name="author" content="Emanuel Muñoz Torigino">
 
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head> 
+
+<body>
+    <header>
+    <img class="header-img" src="images/profilePhoto.jpg" alt="Profile Photo of Emanuel Muñoz Torigino">
+    <span>Emanuel Muñoz Torigino</span>
+    </header>
+
+    <nav>
+        <ul>
+           <li class="active nav-li"><a class="nav-a" href="#">Home</a></li>
+           <li class="nav-li"><a class="nav-a" href="#">Chamber</a></li>
+           <li class="nav-li"><a class="nav-a" href="#">Site Plan</a></li>
+           <li class="nav-li"><a class="nav-a" href="#">Form</a></li> 
+        </ul>
+    </nav>
+
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <hr>
+
+        <div class="sections">
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul>
+                <li class="section-card-li">Week-01<a class="section-card-a" href=""></a></li>
+                <li class="section-card-li">Week-02<a class="section-card-a" href=""></a></li>
+                <li class="section-card-li">Week-03<a class="section-card-a" href=""></a></li>
+                <li class="section-card-li">Week-04<a class="section-card-a" href=""></a></li>
+                <li class="section-card-li">Week-05<a class="section-card-a" href=""></a></li>
+                <li class="section-card-li">Week-06<a class="section-card-a" href=""></a></li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Information</h2>
+            <p>Buenos Aires, Argentina</p>
+            <p>26° C - Cloudy</p>
+            <p>Page Visits : -</p>
+        </section>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="flag-container">
+            <p>&copy;<span id="year"></span> Emanuel Muñoz Torigino - Argentina</p>
+                <div class="container-AR-flag">
+                    <div class="first-lightblue-color-flag"></div>
+                    <div class="white-middle-color-flag"></div>
+                    <div class="sun-center-color-flag"></div>
+                    <div class="last-lightblue-color-flag"></div>
+                </div>            
+        </div>
+        <div>
+        <p class="lastModified-p" id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>
