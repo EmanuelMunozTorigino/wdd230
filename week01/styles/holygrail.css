@@ -34,6 +34,6 @@ body {
   
   .left-sidebar,
   .right-sidebar {
-    padding: 1rem;
+    padding: 1rem .5rem;
   }
   
