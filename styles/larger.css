@@ -1,8 +1,8 @@
 
 @media (min-width: 600px) {
     
-    
     nav {
+        display: block;
         height: 6vh;
     }
 
@@ -21,9 +21,13 @@
         height: 100%;
     }
 
+    #ham-menu {
+        display: none;
+    }
+
 
     main {
-        height: 58vh;
+        height: 60vh;
         width: 90%;
         margin: 0 auto;
         justify-content: center;
@@ -39,7 +43,7 @@
     }
 
     .nav-a:hover {
-        border-bottom: 5px solid #0d6d74;
+        border-bottom: 3px solid #0d6d74;
     }
 
 
@@ -47,4 +51,7 @@
         box-shadow: 2px 2px 5px black;
     }
 
+    footer {
+        height: 17vh;
+    }
 }
