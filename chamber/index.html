@@ -15,7 +15,9 @@
     <meta property="og:url" content="https://emanuelmunoztorigino.github.io/wdd230/chamber/">
     <meta property="og:description" content="Look for valuable resources like up-to-date information about events, news relevant to your business community, educational resources, and networking, by Emanuel Muñoz Torigino">
 
+    <link rel="stylesheet" href="styles/normalize.css">
 
+    
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
@@ -24,49 +26,48 @@
 <body>
 
     <header>
+        <div class="container">
         <div class="logo-container">
-            <a class="logo_link" href="#">
-            <img class="logo" src="images/InternationNetworking.svg" alt="Dry Oar Logo">
+            <a href="#"><img class="logo" src="images/InternationNetworking.svg" alt="Rosario Chamber-Commerce Logo">
             </a>
-            <span>Rosario City</span>
-            <p>Chamber of Commerce</p>
-            <div class="social-media-container">
-                <ul class="list-general-design">
-                    <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png" alt="Instagram Logo"></a></li>
-                    <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" alt="Facebook Logo"></a></li>
-                    <li><a href="#" target="_blank" rel="noopener noreferrer"></a><img src="images/linkedin.png" alt="Linkedin Logo"></a></li>
-                </ul>
-                
-
-                
-            </div>
+            <span class="business-name">Rosario City <br> Chamber of Commerce</span>
         </div>
-
+        <ul class="list-general-design">
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png" alt="Instagram Logo" class="social-media-logo"></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" alt="Facebook Logo" class="social-media-logo"></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"></a><img src="images/linkedin.png" alt="Linkedin Logo" class="social-media-logo"></a></li>
+        </ul>
+        </div>
         <hr>
-        <nav>
-            <ul class="list-general-design">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="faq.html" target="_blank">Services</a></li>
-                <li><a href="site-plan-rafting.html" target="_blank">Training</a></li>
-                <li><a href="contactus.html" target="_blank">Join Us</a></li>
+
+    <div class="ham-menu-container" id="ham-menu"><img src="images/ham-menu.png" alt="" class="ham-menu-logo"></div>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="faq.html" target="_blank">Services</a></li>
+            <li><a href="site-plan-rafting.html" target="_blank">Training</a></li>
+            <li><a href="contactus.html" target="_blank">Join Us</a></li>
             </ul>                        
         </nav>
-
     </header>
     
+    <div class="hero-container">
+    <img src="images/rosarioCity.jpg" alt="Rosario City | hero-image">
     
-    <div hero-container>
-        <div><img src="#Hero-img" alt="Rosario City | hero-image"></div>
-    
-    </div>
 
     <section class="hero-msg">
-        <h1> Make Argentina great again!</h1>
+        <h1>Make Argentina great again!</h1>
+        <div>
         <h4>Be part of this change</h4>
         <div class="button-box">
             <a class="join-us-button" href="#Join-us">Join Us</a>
         </div>
+        </div>
     </section>
+    </div>
+
+    <!--
+
 
     <main>
         
@@ -147,9 +148,11 @@
             </div>        
         
             <div>
-                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png" alt="Instagram Logo"></a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" alt="Facebook Logo"></a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer"></a><img src="images/linkedin.png" alt="Linkedin Logo"></a></li>                
+                <ul class="list-general-design">
+                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/instagram.png" alt="Instagram Logo" class="social-media-logo"></a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" alt="Facebook Logo" class="social-media-logo"></a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer"></a><img src="images/linkedin.png" alt="Linkedin Logo" class="social-media-logo"></a></li>                
+                </ul>
             </div>
         </div>
 
@@ -159,7 +162,7 @@
         <p class="lastModified-p" id="lastModified"></p>
         </div>
     </footer>
-
+    -->
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/burgerMenu.js"></script>
