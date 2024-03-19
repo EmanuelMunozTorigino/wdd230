@@ -9,6 +9,21 @@
     align-items: center;
 }
 
+.events-weather-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.business-news-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .ham-menu-container {
     display: none;
