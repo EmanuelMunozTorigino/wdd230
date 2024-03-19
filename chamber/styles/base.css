@@ -168,10 +168,11 @@ header {
     text-align: center;
 }
 
-.join-us-container > h4 {    
+.join-us-container > p {    
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.243);
     border-radius: 10%;
+    font-weight: 600;
 
 }
 
