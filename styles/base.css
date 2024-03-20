@@ -44,6 +44,7 @@ header {
 }
 
 .header-img {
+    width: auto;
     height: 100%;
     padding: 10px 0;
     margin-left: -1rem;
@@ -227,6 +228,19 @@ hr {
 	font-size: larger;
 }
 
+
+
+
+.pergamino-map {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+.pergamino-map iframe {
+    margin-bottom: 1rem;
+    width: 100%;
+}
 
 footer {
     display: grid;
