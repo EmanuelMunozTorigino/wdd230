@@ -231,13 +231,13 @@ hr {
 
 
 
-.pergamino-map {
+.pergamino-map-container {
     margin: 0 auto;
     text-align: center;
     width: 90%;
 }
 
-.pergamino-map iframe {
+.pergamino-map{
     margin-bottom: 1rem;
     width: 100%;
 }
