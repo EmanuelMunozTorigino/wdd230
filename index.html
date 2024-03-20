@@ -50,6 +50,17 @@
 
 
     <main>
+        <div class="hero">
+        <picture>
+            <source media="(max-width: 400px)" srcset="images/BA-temple-small.webp">
+            <source media="(max-width: 960px)" srcset="images/BA-temple-medium.webp">
+            <img src="images/BA-temple-large.webp" alt="" width="1278" height="639">
+        </picture>
+        <div class="hero-label">
+            <p>Buenos Aires, Argentina Temple</p>
+        </div>
+    </div>
+
         <h1>WDD 230: Web Frontend Development</h1>
         <hr>
 
@@ -70,7 +81,7 @@
             <h2>Information</h2>
             <p class=".montserrat-para">Buenos Aires, Argentina</p>
             <p class=".montserrat-para">26° C - Cloudy</p>
-            <p class=".montserrat-para">Page Visits : -</p>
+            <p><span class="label">Page visits: </span><span class="visits"></span></p>
         </section>
         </div>
     </main>
@@ -95,6 +106,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/burgerMenu.js"></script>
-
+    <script src="scripts/localStorage.js"></script>
 </body>
 </html>
