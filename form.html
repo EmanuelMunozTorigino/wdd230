@@ -31,15 +31,59 @@
         
         <nav>
         <ul class="nav">
-           <li class="active nav-li"><a class="nav-a" href="#">Home</a></li>
+           <li class=" nav-li"><a class="nav-a" href="#">Home</a></li>
            <li class="nav-li"><a class="nav-a" href="chamber/index.html" target="_blank">Chamber</a></li>
            <li class="nav-li"><a class="nav-a" href="week01/chamber-site-plan.html" target="_blank">Site Plan</a></li>
-           <li class="nav-li"><a class="nav-a" href="#">Form</a></li> 
+           <li class="active nav-li"><a class="nav-a" href="#">Form</a></li> 
         </ul>
 
     </nav>
 
     <main>
+
+       
+
+        <h1>Course Proposal Application</h1>
+
+
+        <form method="get" action="record.html" class="wf1">
+    
+            <fieldset >
+                <legend>Applicant information</legend>
+
+
+                <label>Username* <input type="text" name="name" id="username" required placeholder="User_name10"></label>
+                
+                <label>Password* <input type="password" name="password" pattern="[a-zA-Z0-9]{8,}" required id="password1" placeholder="At least 8 alpha-numeric characters"></label>
+                <label>Repeat Password* <input type="password" name="password" pattern="[a-zA-Z0-9]{8,}" required id="password2" placeholder="Must be the same to the above"></label>
+                <div id="formmessage"></div>
+
+                <label>Email <input type="email" name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" placeholder="anyone@gmail.com"  id="email" title="Please enter a valid email address" required></label>
+                
+
+                <label>Page Rating <input type="range" name="pagerate" min="1" max="10" step="1" value="1" id="range" list="rangevalues" required>
+                </label>
+
+                <datalist id="rangevalues">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                    
+                </datalist>
+                <span id="rangevalue">Value: 1</span>
+            
+                <input type="submit" value="Record Page Rating"> 
+            </fieldset>
+            
+        </form>
+    
 
     </main>
 
@@ -64,5 +108,6 @@
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/burgerMenu.js"></script>
     <script src="scripts/localStorage.js"></script>
+    <script src="scripts/formvalidation.js"></script>
 </body>
 </html>
